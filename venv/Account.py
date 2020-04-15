@@ -13,12 +13,13 @@ class Account:
 
     def getBalance(self):
         return self.balance
-    def getAmount(self):
-        return self.getBalance()
+
     def setID(self, newId):
         self.id = newId
+
     def setName(self, newName):
         self.name = newName
+
     def setBalance(self, newBalance):
         self.balance = newBalance
 
